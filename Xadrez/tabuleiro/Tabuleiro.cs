@@ -1,8 +1,8 @@
-﻿
-namespace tabuleiro
+﻿namespace tabuleiro
 {
     class Tabuleiro
     {
+
         public int linhas { get; set; }
         public int colunas { get; set; }
         private Peca[,] pecas;
@@ -14,7 +14,7 @@ namespace tabuleiro
             pecas = new Peca[linhas, colunas];
         }
 
-        public Peca peca(int linha, int coluna) 
+        public Peca peca(int linha, int coluna)
         {
             return pecas[linha, coluna];
         }
@@ -24,7 +24,7 @@ namespace tabuleiro
             return pecas[pos.linha, pos.coluna];
         }
 
-        public bool existePeca(Posicao pos) 
+        public bool existePeca(Posicao pos)
         {
             validarPosicao(pos);
             return peca(pos) != null;
@@ -34,7 +34,7 @@ namespace tabuleiro
         {
             if (existePeca(pos))
             {
-                throw new TabuleiroException("Já existe uma peça nessa posição");
+                throw new TabuleiroException("Já existe uma peça nessa posição!");
             }
             pecas[pos.linha, pos.coluna] = p;
             p.posicao = pos;
@@ -46,15 +46,15 @@ namespace tabuleiro
             {
                 return null;
             }
-            Peca aux =  peca(pos);
-            aux.posicao = null;  //retira a peça do jogo
-            pecas[pos.linha, pos.coluna] = null; //indica que não tem mais peça lá
+            Peca aux = peca(pos);
+            aux.posicao = null;
+            pecas[pos.linha, pos.coluna] = null;
             return aux;
         }
 
         public bool posicaoValida(Posicao pos)
         {
-            if (pos.linha<0 || pos.linha >= linhas || pos.coluna<0 ||  pos.coluna >= colunas)
+            if (pos.linha < 0 || pos.linha >= linhas || pos.coluna < 0 || pos.coluna >= colunas)
             {
                 return false;
             }
@@ -65,9 +65,8 @@ namespace tabuleiro
         {
             if (!posicaoValida(pos))
             {
-                throw new TabuleiroException("Posição inválida");
+                throw new TabuleiroException("Posição inválida!");
             }
         }
-
     }
 }
