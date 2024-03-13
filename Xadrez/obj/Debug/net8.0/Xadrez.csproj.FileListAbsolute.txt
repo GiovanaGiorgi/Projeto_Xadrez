@@ -12,3 +12,4 @@ C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\refint\Xadrez.dll
 C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\Xadrez.pdb
 C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\Xadrez.genruntimeconfig.cache
 C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\ref\Xadrez.dll
+C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\Xadrez.sourcelink.json
