@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giovana.bigati\\treinamento\\Xadrez\\Xadrez.csproj",
-      "projectName": "Xadrez",
-      "projectPath": "C:\\Users\\giovana.bigati\\treinamento\\Xadrez\\Xadrez.csproj",
+      "projectUniqueName": "C:\\Users\\giovana.bigati\\treinamento\\Xadrez\\xadrez-console.csproj",
+      "projectName": "xadrez-console",
+      "projectPath": "C:\\Users\\giovana.bigati\\treinamento\\Xadrez\\xadrez-console.csproj",
       "packagesPath": "C:\\Users\\giovana.bigati\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\giovana.bigati\\treinamento\\Xadrez\\obj\\",
       "projectStyle": "PackageReference",

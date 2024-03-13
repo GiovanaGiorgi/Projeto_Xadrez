@@ -1,0 +1,15 @@
+C:\Users\giovana.bigati\treinamento\Xadrez\bin\Debug\net8.0\xadrez-console.exe
+C:\Users\giovana.bigati\treinamento\Xadrez\bin\Debug\net8.0\xadrez-console.deps.json
+C:\Users\giovana.bigati\treinamento\Xadrez\bin\Debug\net8.0\xadrez-console.runtimeconfig.json
+C:\Users\giovana.bigati\treinamento\Xadrez\bin\Debug\net8.0\xadrez-console.dll
+C:\Users\giovana.bigati\treinamento\Xadrez\bin\Debug\net8.0\xadrez-console.pdb
+C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\xadrez-console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\xadrez-console.AssemblyInfoInputs.cache
+C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\xadrez-console.AssemblyInfo.cs
+C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\xadrez-console.csproj.CoreCompileInputs.cache
+C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\xadrez-console.sourcelink.json
+C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\xadrez-console.dll
+C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\refint\xadrez-console.dll
+C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\xadrez-console.pdb
+C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\xadrez-console.genruntimeconfig.cache
+C:\Users\giovana.bigati\treinamento\Xadrez\obj\Debug\net8.0\ref\xadrez-console.dll

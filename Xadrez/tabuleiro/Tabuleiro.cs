@@ -40,6 +40,18 @@ namespace tabuleiro
             p.posicao = pos;
         }
 
+        public Peca retirarPeca(Posicao pos)
+        {
+            if (peca(pos) == null)
+            {
+                return null;
+            }
+            Peca aux =  peca(pos);
+            aux.posicao = null;  //retira a peça do jogo
+            pecas[pos.linha, pos.coluna] = null; //indica que não tem mais peça lá
+            return aux;
+        }
+
         public bool posicaoValida(Posicao pos)
         {
             if (pos.linha<0 || pos.linha >= linhas || pos.coluna<0 ||  pos.coluna >= colunas)
